@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   get '/cheeses', to: 'cheeses#index'
-  get '/cheeses/:1', to: 'cheeses#show'
+  get '/cheeses/:id', to: 'cheeses#show'
 end
